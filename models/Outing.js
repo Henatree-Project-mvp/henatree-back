@@ -1,6 +1,6 @@
 const mongoose = require("mongoose");
 
-const Outing = mongoose.model("Article", {
+const Outing = mongoose.model("Outing", {
   title: String,
   content: String,
   author: {
