@@ -1,7 +1,7 @@
 const express = require("express");
 const router = express.Router();
 
-const Article = require("../models/Outing");
+const Outing = require("../models/Outing");
 const User = require("../models/User");
 
 router.post("/outing/create", async (req, res) => {
